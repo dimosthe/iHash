@@ -7,6 +7,7 @@ acdeghilmnoprstuwz such that the iHash(le_string) is 56721274917700
 if iHash is defined by the following pseudo-code:
 
 function iHash(le_string){ 
+	
 	t =7;
 	letters = "acdeghilmnoprstuwz";
 		

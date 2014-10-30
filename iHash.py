@@ -1,3 +1,8 @@
+######## reverseHash #########
+# Finds an n letter string of characters that contains only letters
+# from acdeghilmnoprstuwz such that the iHash(le_string) is x 
+
+# returns the iHash number of a given n-length string
 def iHash(string):
     t = 7
     letters = "acdeghilmnoprstuwz" 
@@ -7,6 +12,7 @@ def iHash(string):
 
     return t
 
+# returns the n-length string of a given iHash number
 def reverseHash(hash_num, string_length):
     t = 7
     letters = "acdeghilmnoprstuwz" 
